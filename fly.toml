@@ -3,8 +3,5 @@ app = "ibit-price-monitor"
 [env]
 # Environment variables can be set here or via 'fly secrets set'
 
-[build]
-  builder = "heroku/buildpacks:20"
-
 [processes]
   app = "bun index.ts" 
